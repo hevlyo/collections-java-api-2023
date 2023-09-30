@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoDeCompras {
-    private List<Item> itens;
+    private final List<Item> itens;
 
     public CarrinhoDeCompras() {
-        this.itens = new ArrayList<Item>();
+        this.itens = new ArrayList<>();
     }
 
     public void adicionarItem(String nome, double preco, int quantidade) {
